@@ -1,0 +1,22 @@
+I am doing this project solo, So I have not implemented the range query (as per sir's Mail).
+
+I have written my program in c++ , I advice you to run my program in codeblocks IDE, as i have used the same while coding
+
+I have created a print_x_y function which will print the split in x and y direction.
+
+I have created print_the_bucket function for printing the bucket coordinates along with the points it contains at line 635
+ 
+I am also handling the case where there are multiple repeated points at the same location(>bucket size) and I am naming that as overflow bucket and created the same for it
+
+I am creating a dataset by calling the function-create_dataset at line 603, If you dont wish to create a random dataset , then comment this line, If you comment this line 603 then program will not create the dataset and it assumes that dataset.txt already exist and proceed as usual
+
+I am reading data from dataset.txt file , separated by space 
+
+First I am asking the user to enter the bucket size 
+ 
+And after that i am again asking the user to enter to grid coordintes in xy format,lower left (x,y) and upper right(x,y) .
+After the execution is completed i am printing the x_split scale and y_split scale in the console,at 634 line.
+
+
+
+
